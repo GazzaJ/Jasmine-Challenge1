@@ -26,7 +26,7 @@ describe("ageChecker", function() {
         })
         it("should return Drink Whisky when ageChecker(30)", function() {
             var result = ageChecker(30)
-            expect(result).toBe("Drink Whiskey");
+            expect(result).toBe("Drink Whisky");
         })
         it("should return Drink Whisky when ageChecker(130)", function() {
             var result = ageChecker(129)
